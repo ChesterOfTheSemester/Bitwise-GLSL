@@ -9,9 +9,9 @@ float AND(float f, float c)
         && (c - 2.0 * (c / 2.0) == 1.0))
             rtn += n;
             
-        f = f / 2.0;
-        c = c / 2.0;
-        n = n * 2.0;
+        f /= 2.0;
+        c /= 2.0;
+        n *= 2.0;
         
         if(!(f > 0.0 && c > 0.0))
             break;

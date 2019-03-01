@@ -1,3 +1,6 @@
+//   0110
+// & 1011
+// = 0010
 float AND(float f, float c)
 {
     float rtn = 0.0,
